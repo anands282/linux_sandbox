@@ -11,13 +11,13 @@ function local_var(){
 	VAR2="GLOBAl_VARIABLE"
 }
 
-echo $"calling local var outside function: $VAR1"
-echo $"calling global var outside function: $VAR2"
+echo "calling local var outside function: $VAR1"
+echo "calling global var outside function: $VAR2"
 
 local_var
 
-echo $"calling local var outside function: $VAR1"
-echo $"calling global var outside function: $VAR2"
+echo "calling local var outside function: $VAR1"
+echo "calling global var outside function: $VAR2"
 
 #output
 # calling local var outside function: 
